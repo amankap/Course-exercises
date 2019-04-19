@@ -20,3 +20,5 @@ let question1 = prompt("Введите обязательную статью р�
    appData.expenses.question3 = question4;
 
    alert('Остаток на счете: ' + appData.budget / 30 + ' тенге');
+
+ 
