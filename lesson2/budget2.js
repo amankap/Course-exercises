@@ -26,7 +26,7 @@ let appData = {
     };*/
 let i = 0;
 /*while (i < 2) {
-    i++;
+    
     let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
         b = prompt("Во сколько обойдется?", "");
 
@@ -37,10 +37,11 @@ let i = 0;
         alert("Вы ввели неправильно, повторите ещё раз");
         i--;
     }
+    i++;
 };*/
 
 do {
-    i++;
+   
     let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
         b = prompt("Во сколько обойдется?", "");
 
@@ -51,7 +52,7 @@ do {
         alert("Вы ввели неправильно, повторите ещё раз");
         i--;
     }
-
+    i++;
 } while (i < 2);
 
 appData.moneyPerDay = appData.budget / 30;
@@ -81,3 +82,13 @@ if (appData.moneyPerDay < 100) {
         break;
    
 }*/
+function firstUpper() {
+function ucfirst(str) {
+   let upper = toUpperCase(str);
+   return ucfirst;
+}
+return firstUpper();
+}
+
+let c1 = firstUpper();
+console.log(c1.charAt[0]);
